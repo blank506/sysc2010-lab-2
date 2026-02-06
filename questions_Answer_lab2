@@ -1,0 +1,49 @@
+"""
+Name:Ramiodeh
+ID:101328237
+SYSC 2010
+
+Q1:
+A lot of noise , spkies , repeating waveform
+
+Q2:
+yes huge DC offset, noise, there is a huge cause of fluctuations, due to maybe sensor stabilizing or adjustment. so we took the first 1000 samples off 
+
+Q4:
+it can be said that the original CSV file of the ECG is bad, due to it containg alot of noise, spikes , fluctuations, and others , but still we can use the data clean it , smooth it out. 
+
+Q5:
+ other electronic devices(Electrical interferance /magnetic field ), maybe outside interferance humand movment 
+
+Q6:
+the waveform/shape didnt change, signals centered around zero, this improved the visualization, confirms baseline offset was removed 
+
+Q7:
+if we put the value of the window too low then the smothing would be minimal not a lot of things changes when it is too low, value very large then the reading plot would show us a flat line or close to it.
+
+
+4.3.8
+i do not know what is a legend, but i have included a figure, and i will explain it in here?
+
+for this section we take samples from the original file and the fixed file(clean/smooth/Dc) and compare them 
+
+
+Post lab 
+
+Q1:
+
+it is more challenging, due to low amplitudie, and due to useage, how does the person treat the device 
+
+Q2
+
+Baseline drift and motion artifacts are problematic because they hide or distort ECG peaks, 
+which affects accurate heart rate estimation.
+
+Q3
+becuase noise can give false information, false peaks/ fluctuations, disturbance
+
+Q4
+Preprocessing removes noise and baseline offsets,and it improve signal clarity and ensuring 
+reliable feature extraction in subsequent analysis.
+
+"""
